@@ -19,15 +19,23 @@ def find(arr, n, key):
             print("element not found")
 
 #Insertion 
-def insert(arr, element):
-    arr.append(element)
+def insert(arr1, element):
+    arr1.append(element)
     if __name__== '__main__':
-        arr= [12, 16, 20, 40]
-        key =27
+        arr1= [12, 16, 20, 40]
+        key1 = 27
         print("Before Inserting: ")
-        print(arr)
-
-        insert(arr, key)
+        print(arr1)
+        insert(arr1, key1)
         print("After insertion: ")
-        print(arr)
-        
+        print(arr1)
+
+#Deletion 
+if __name__=='__main__':
+    arr2 = [ 10, 50, 30, 40, 20]
+    key2 =30
+    print("array before deletion: ")
+    print(arr2)
+    arr2.remove(key2)
+    print(" Array after deletion: ")
+    print(arr2)
