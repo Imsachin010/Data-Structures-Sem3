@@ -30,3 +30,4 @@ def insert(arr, element):
         insert(arr, key)
         print("After insertion: ")
         print(arr)
+        
